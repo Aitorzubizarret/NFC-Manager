@@ -13,6 +13,8 @@
 		1AEA219B25695678008FA435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AEA219A25695678008FA435 /* Assets.xcassets */; };
 		1AEA219E25695678008FA435 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AEA219D25695678008FA435 /* Preview Assets.xcassets */; };
 		1AEA21A125695678008FA435 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AEA219F25695678008FA435 /* LaunchScreen.storyboard */; };
+		42AC4CE02593EF5600FEF9F4 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 42AC4CDF2593EF5600FEF9F4 /* Settings.bundle */; };
+		42AC4CE32593EF7000FEF9F4 /* SettingsBundleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AC4CE22593EF7000FEF9F4 /* SettingsBundleHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		1AEA219D25695678008FA435 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1AEA21A025695678008FA435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AEA21A225695678008FA435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42AC4CDF2593EF5600FEF9F4 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		42AC4CE22593EF7000FEF9F4 /* SettingsBundleHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsBundleHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 				1AEA219F25695678008FA435 /* LaunchScreen.storyboard */,
 				1AEA21A225695678008FA435 /* Info.plist */,
 				1AEA219C25695678008FA435 /* Preview Content */,
+				42AC4CDF2593EF5600FEF9F4 /* Settings.bundle */,
+				42AC4CE22593EF7000FEF9F4 /* SettingsBundleHelper.swift */,
 			);
 			path = NFCManager;
 			sourceTree = "<group>";
@@ -137,6 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42AC4CE02593EF5600FEF9F4 /* Settings.bundle in Resources */,
 				1AEA21A125695678008FA435 /* LaunchScreen.storyboard in Resources */,
 				1AEA219E25695678008FA435 /* Preview Assets.xcassets in Resources */,
 				1AEA219B25695678008FA435 /* Assets.xcassets in Resources */,
@@ -150,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42AC4CE32593EF7000FEF9F4 /* SettingsBundleHelper.swift in Sources */,
 				1AEA219525695677008FA435 /* AppDelegate.swift in Sources */,
 				1AEA219725695677008FA435 /* SceneDelegate.swift in Sources */,
 				1AEA219925695677008FA435 /* ContentView.swift in Sources */,
